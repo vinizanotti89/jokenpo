@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/fundo-inicial.png");
+    background-position: center;
+    background-color: rgb(178, 233, 201);
+    display: flex; /* Permite alterar todo o contexto do body */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Determina que meu body vai ocupar toda a tela para que fique totalmente centralizado */
+
+}
+
+
+.container {
+    padding: 20px;
+    background-color: hsla(222, 92%, 41%, 0.723);
+    border-radius: 10px;
+    font-size: xx-large;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 80px;
+}
+
+button {
+    padding: 10px;
+    font-size: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #81ff04d3;
+}
+
+#paper {
+    background-color: #ffdd00;
+}
+
+#scissors {
+    background-color: hsla(271, 88%, 44%, 0.886);
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result img {
+    width: 400px;
+    height: auto;
+}
+
+.result p {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(232, 248, 4);
+    margin-top: 10px;
+}
+
+.my-score span {
+    color: #3aed34d6;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+.machine-score span {
+    color: #a01111;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        font-size: large;
+    }
+
+    .buttons {
+        gap: 20px;
+    }
+
+    button {
+        font-size: 50px;
+    }
+
+    .result img {
+        width: 250px;
+    }
+
+    .result p {
+        font-size: 16px;
+    }
+
+    .my-score span {
+        font-size: 20px;
+    }
+
+    .machine-score span {
+        font-size: 20px;
+    }
+    
+
+
+}
