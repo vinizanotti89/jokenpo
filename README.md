@@ -39,6 +39,24 @@ Essas animações tornam o jogo mais interativo e divertido!
 - CSS3
 - JavaScript (puro)
 
+
+## 📚 Aprendizados
+
+- Manipular o DOM para atualizar o placar e imagens
+- Criar e remover elementos dinamicamente com JavaScript
+- Trabalhar com eventos de clique
+- Implementar controle de fluxo com condicionais
+- Criar animações interativas com CSS e GIFs
+- Pensar em UX (experiência do usuário) ao finalizar o jogo
+
 ## 🚀 Link do projeto publicado
 
 https://jokenpo-seven-beta.vercel.app/
+
+
+## 🛠️ Como rodar localmente
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/vinizanotti89/jokenpo.git
