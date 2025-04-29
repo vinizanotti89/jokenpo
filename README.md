@@ -39,12 +39,6 @@ Essas animações tornam o jogo mais interativo e divertido!
 - CSS3
 - JavaScript (puro)
 
-## 🚀 Como executar o projeto
+## 🚀 Link do projeto publicado
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/vinizanotti89/jokenpo.git
-
-2- Abra o arquivo index.html
-
-Pronto! Já pode se divertir.
+https://jokenpo-seven-beta.vercel.app/
