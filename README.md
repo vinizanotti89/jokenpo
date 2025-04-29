@@ -2,7 +2,8 @@
 
 Este projeto foi desenvolvido como proposta de criar um jogo simples de **Jokenpô** (Pedra, Papel e Tesoura) utilizando **HTML, CSS e JavaScript puro**.  
 
-<img width="1680" alt="Captura de Tela 2025-04-28 às 20 32 28" src="https://github.com/user-attachments/assets/77ed42d7-d588-44bb-8368-7cc6c7d774dc" />
+<img width="1468" alt="Captura de Tela 2025-04-28 às 21 03 44" src="https://github.com/user-attachments/assets/2123ecca-048a-49ba-9de8-3f5fce002881" />
+
 
 
 Como gosto de ir além, adicionei **animações com GIFs** que aparecem conforme o resultado:  
